@@ -1,30 +1,55 @@
-# Image Analysis
+# AuthApi Dashboard
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Painel de controle para monitoramento e análise da API de autenticação hospedada na AWS Elastic Beanstalk.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/llouzadacalunga-gmailcoms-projects/v0-image-analysis)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/JSPGu1MU9ty)
+## Funcionalidades
 
-## Overview
+- Monitoramento em tempo real da saúde da API (status, latência, disponibilidade).
+- Visualização de gráficos de desempenho das últimas 24 horas.
+- Estatísticas de usuários ativos e implantações recentes.
+- Integração com AWS CloudWatch para logs e métricas.
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Tecnologias
 
-## Deployment
+- React com TypeScript
+- Ruby on Rails
+- AWS Elastic Beanstalk
+- Vercel (hospedagem)
 
-Your project is live at:
+## Como rodar localmente
 
-**[https://vercel.com/llouzadacalunga-gmailcoms-projects/v0-image-analysis](https://vercel.com/llouzadacalunga-gmailcoms-projects/v0-image-analysis)**
+1. Clone o repositório:
 
-## Build your app
+```bash
+git clone https://github.com/seu-usuario/authapi-dashboard.git
+cd authapi-dashboard
 
-Continue building your app on:
 
-**[https://v0.dev/chat/projects/JSPGu1MU9ty](https://v0.dev/chat/projects/JSPGu1MU9ty)**
+2. Instale as dependências:
 
-## How It Works
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+
+npm install
+
+3. Inicie a aplicação:
+
+
+
+npm start
+
+4. Acesse no navegador:
+
+
+
+http://localhost:3000
+
+Licença
+
+MIT License.
+
+
+---
+
+Qualquer dúvida, estou à disposição!
+
+Se quiser, posso ajudar a deixar ele mais detalhado também. Quer?
